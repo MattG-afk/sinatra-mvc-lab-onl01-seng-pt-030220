@@ -19,7 +19,7 @@ class PigLatinizer
     elsif consonants.include?(word[0] && word[1])
       word.rotate.rotate.join + "ay"
     else
-      word.rotate.join + "ay"
+      word.rotate.join + "way"
     end
 
 end
