@@ -12,7 +12,7 @@ def piglatinize(word) #pig latinizes a single word
   end
 end
 
-def to_pig_latin(phrase)
- word.
+def to_pig_latin(words)
+ words.piglatinize
 end
 end 
