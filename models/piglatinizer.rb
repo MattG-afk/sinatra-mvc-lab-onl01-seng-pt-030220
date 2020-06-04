@@ -12,11 +12,5 @@ def piglatinize(word) #pig latinizes a single word
   end
 end
 
-  def to_pig_latin(sentence)
-    words_in_sentence = sentence.split(" ")
 
-    pig_latinized_words = words_in_sentence.collect do |word|
-      self.piglatinize(word)
-    end
-  end
 end 
