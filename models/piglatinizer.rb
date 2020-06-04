@@ -1,3 +1,5 @@
+
+
 def piglatinize(word) #pig latinizes a single word
   if word.downcase.index(/[aeiou]/) == 0
     word + "way"
