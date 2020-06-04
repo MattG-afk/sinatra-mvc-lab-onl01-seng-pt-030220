@@ -31,7 +31,9 @@ end
     result.join(" ")
   end
   
-  
+  def begins_with_vowel
+    vowel_word = @new_word << "way"
+  end
 
 
 end
