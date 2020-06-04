@@ -10,7 +10,7 @@ class PigLatinizer
     front_end = word.slice!(0..vowel_index-1)
     word + front_end +"ay"
   end
-end
+  end
   def to_pig_latin(sentence)
     words_in_sentence = sentence.split(" ")
 
