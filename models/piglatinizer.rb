@@ -12,5 +12,5 @@ def piglatinize(word) #pig latinizes a single word
   end
 end
 
-end
+
 end 
