@@ -1,3 +1,5 @@
+class PigLatinizer
+  attr_accessor :piglatinized_phrase
 
 
 def piglatinize(word) #pig latinizes a single word
