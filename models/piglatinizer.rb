@@ -2,7 +2,7 @@ class PigLatinizer
   attr_accessor :piglatinized_phrase
 
 
-def piglatinize(word) #pig latinizes a single word
+  def piglatinize(word) #pig latinizes a single word
   if word.downcase.index(/[aeiou]/) == 0
     word + "way"
   else
@@ -11,6 +11,11 @@ def piglatinize(word) #pig latinizes a single word
     word + front_end +"ay"
   end
 end
+  def to_pig_latin(sentence)
+    words_in_sentence = sentence.split(" ")
 
+    pig_latinized_words = words_in_sentence.collect do |word|
+      self.piglatinize(word)
+    end
 
 end 
