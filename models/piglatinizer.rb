@@ -18,4 +18,5 @@ end
     pig_latinized_words = words_in_sentence.collect do |word|
       self.piglatinize(word)
     end
+  end
 end 
